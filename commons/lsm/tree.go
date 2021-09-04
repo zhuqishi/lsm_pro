@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-08-29 20:54:45
- * @LastEditTime: 2021-08-30 00:00:38
+ * @LastEditTime: 2021-09-05 01:11:24
  * @LastEditors: Please set LastEditors
  * @Description: Tree-related data struct
  * @FilePath: /lsm_tree_pro/commons/tree.go
@@ -102,7 +102,6 @@ func (rbtree *RBTree) InsertNode(pnode *RBNode, data int64) {
 }
 
 func (rbtree *RBTree) CheckInsertNode(checknode *RBNode) {
-	return
 }
 
 /*******************************************************************************************************
